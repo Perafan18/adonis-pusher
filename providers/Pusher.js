@@ -11,9 +11,9 @@ class PusherProvider extends ServiceProvider {
         appId: Env.get('PUSHER_APP_ID'),
         key: Env.get('PUSHER_APP_KEY'),
         secret: Env.get('PUSHER_SECRET_KEY'),
-        encrypted: Env.get('PUSHER_ENCRYPTED'), // optional, defaults to false
-        host: Env.get('PUSHER_HOST'), // optional, defaults to api.pusherapp.com
-        port: Env.get('PUSHER_PORT'), // optional, defaults to 80 for unencrypted and 443 for encrypted
+        encrypted: Env.get('PUSHER_ENCRYPTED'),
+        host: Env.get('PUSHER_HOST'),
+        port: Env.get('PUSHER_PORT')
       })
     })
   }
