@@ -1,0 +1,30 @@
+{
+  "name": "adonis-pusher",
+  "version": "1.0.0",
+  "description": "Pusher provider for AdonisJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perafan18/adonis-pusher.git"
+  },
+  "keywords": [
+    "Pusher",
+    "Adonis",
+    "AdonisJS",
+    "adonis",
+    "pusher",
+    "provider"
+  ],
+  "author": "Pedro Perafán Carrasco",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Perafan18/adonis-pusher/issues"
+  },
+  "homepage": "https://github.com/Perafan18/adonis-pusher#readme",
+  "dependencies": {
+    "pusher": "^1.5.1"
+  }
+}
