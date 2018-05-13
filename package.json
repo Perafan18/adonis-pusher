@@ -1,6 +1,6 @@
 {
   "name": "adonis-pusher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pusher provider for AdonisJs",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,12 @@
     "provider"
   ],
   "author": "Pedro Perafán Carrasco",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Perafan18/adonis-pusher/issues"
   },
   "homepage": "https://github.com/Perafan18/adonis-pusher#readme",
   "dependencies": {
-    "pusher": "^1.5.1"
+    "pusher": "^2.0.0"
   }
 }
